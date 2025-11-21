@@ -1,0 +1,50 @@
+export interface CarProps {
+  _id: string
+  id: number;
+  brand: string;
+  model: string;
+  year: number;
+  price: number;
+  fuelType: string;
+  transmission: string;
+  color: string;
+  mileage: number;
+  engine: string;
+  horsepower: number;
+  torque: string;
+  topSpeed: string;
+  acceleration: string;
+  fuelCapacity: string;
+  range: string;
+  dimensions: {
+    length: string;
+    width: string;
+    height: string;
+    wheelbase: string;
+    weight: string;
+  };
+  seats: number;
+  doors: number;
+  driveType: string;
+  infotainmentSystem: string;
+  airConditioning: string;
+  interiorMaterial: string;
+  soundSystem: string;
+  ambientLighting: string;
+  safetyFeatures: {
+    airbags: string;
+    abs: boolean;
+    tractionControl: boolean;
+    parkingSensors: string;
+    adaptiveCruiseControl: boolean;
+    automaticBraking: boolean;
+    laneAssist: boolean;
+    blindSpotMonitoring: boolean;
+  };
+  features: string[];
+  warranty: string;
+  availabilityStatus: string;
+  countryOfOrigin: string;
+  image: string;
+  description: string;
+}
