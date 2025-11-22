@@ -132,3 +132,7 @@ body{
 ::-webkit-scrollbar{
   display: none;
 }
+
+.hero-section{
+  background-image: url('/assets/range.jpg');
+}

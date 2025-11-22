@@ -12,7 +12,7 @@ const HeroSection = () => {
 
   return (
     <div>
-         <div className='min-h-[80vh] flex justify-around items-center bg-[url(assets/range.jpg)] bg-cover bg-center gap-5 relative flex-wrap'>
+         <div className='hero-section min-h-[80vh] flex justify-around items-center  bg-cover bg-center gap-5 relative flex-wrap'>
 
             <motion.div
               initial={{opacity: 0, x: -200}}
